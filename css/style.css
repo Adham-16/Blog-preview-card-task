@@ -13,10 +13,13 @@
 body {
   background-color: var(--Yellow);
   font-family: "Figtree", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contaner {
   background-color: var(--White);
-  margin: 20px auto;
   border-radius: 10px;
   padding: 20px;
   width: 25rem;
